@@ -4,3 +4,13 @@ for (var i = 0; i < numArray.length; i++) {
         console.log(numArray[i]);
     }
 }
+
+function getNumbersUnderSixty(numbers) {
+    for (var i = 0; i < numArray.length; i++) {
+        if (numArray[i] < 60) {
+            console.log(numArray[i]);
+        }
+    }
+}
+
+getNumbersUnderSixty(numArray);
